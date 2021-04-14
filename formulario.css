@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: rgba(241, 208, 166, 0.5);
+    font-family: Arial, Helvetica, sans-serif;
+}
+:focus{
+    outline: none;
+}
+.font_wrape{
+    width: 1000px;
+    height: 23px;
+    margin: 40px auto;
+    background: cornsilk;
+
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px,0px,rgba(0, 0, 0, .5);
+}
+.contact_info::before{
+    content: '';
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    position:absolute;
+    top: 0;
+    left: 0;
+    background: rgba(241, 208, 166, 0.616);
+}
+.contact_info{
+    width: 40%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../Entrevinos/viñedo.jpg);
+    box-shadow: rgba(0, 0, 0, .7);
+    border-radius: 15px;
+    background-size: cover;
+    flex-direction: column;
+    background-position: center;
+}
+.info_titulo, 
+.info_items{
+    position: relative;
+    z-index: 2;
+    color: rgba(0, 0, 0, .7);
+}
+.info_titulo{
+    margin-bottom: 30px;
+}
+.info_titulo h2{
+    font-size: 25px;
+    text-align:center ;
+}
+.info_items p{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+form.form_contact{
+    width: 62%;
+    padding: 20px 30px;
+}
+form.form_contact h2{
+    font-size: 25px;
+    font-weight: 600;
+    color:#e97290 ;
+    margin-bottom: 30px;
+}
+form.form_contact .user_info{
+    display: flex;
+    flex-direction: column;
+}
+form.form_contact label{
+    font-weight: 600;
+}
+form.form_contact input,
+form.form_contact textarea{
+    width: 100%;
+    padding: 6px 0px 6px;
+    margin-bottom: 20px;
+
+    border: none;
+    border-bottom: 2px solid #d3afb8;
+}
+form.form_contact textarea{
+    max-width: 100%;
+    min-width: 100%;
+    max-height: 90%;
+}
+form.form_contact input[type="button"]{
+    width: 180px;
+    background: #d3afb8;
+    padding: 10px;
+    border: none;
+    border-radius:  25px;
+}
+.modal_wrap{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mensaje_modal{
+    background: #fff;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    padding: 30px 20px 15px;
+}
+.mensaje_modal h3{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.mensaje_modal h3::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #C5C5C5;
+    margin: 10px 0px 15px;
+}
+.mensaje_modal p{
+    font-size: 16px;
+    color: #606060;
+}
+.mensaje_modal p:before{
+    content: "x";
+    display:inline-block;
+    color: #e25151
+}
+#btnClose{
+    display: inline-block;
+    padding: 3px 10px;
+    margin-top: 10px;
+
+    background: #E25151;
+    color: #fff;
+    border: 2px solid #B14141;
+    cursor: pointer;
+}
+
