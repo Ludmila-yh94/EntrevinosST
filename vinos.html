@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Entre Vinos</title>
+    <link rel="stylesheet" href="vinos.css">
+    <link rel="stylesheet" href="formulario.css">
+    <link href='https://unpkg.com/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <script src="jquery-3.6.0.js"></script>
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="menu-regular-24.png" alt="" class="hamburger">
+        <nav class="menu-navegacion spread">
+                <a href="#inicio">Inicio</a>
+                <a href="#servicio">Servicio</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#footer">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">EL MEJOR VINO NO ES EL MAS CARO, SINO EL QUE SE COMPARTE</h1>
+            <p class="copy">Vinos de Bodega</p>
+        </div>       
+    </header>
+    <main>
+        <section class="contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="Cocktail _Outline.png" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number"></span>Envios a Domicilio</h3>
+                        <p> Realizamos entregas sin cargo en la zona de microcentro porteño, en un radio de diez cuadras.
+                            Por otros destinos consultanos los costos de envío.
+                            Si realizás tu pedido antes de las 14 horas lo podés recibir en el mismo día.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number"></span>Embalaje para Viajes</h3>
+                        <p> Empacamos los vinos con un embalaje especialmente reforzado y acondicionado para ser transportado en la bodega del avión.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number"></span>Consultoria del Regalo</h3>
+                        <p> El vino es la mejor opción para regalar en cualquier ocasión.
+                            Por eso en ENTRE VINOS te asesoramos para que puedas encontrar ese detalle que se convertirá en una experiencia memorable.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="galeria 1.jpg" class="img-galeria" alt="Galeria">
+                    <img src="galeria 2.jpg" class="img-galeria" alt="">
+                    <img src="galeria 3.jpg" class="img-galeria" alt="">
+                    <img src="galeria 4.jpg" class="img-galeria" alt="">
+                    <img src="galeria 5.jpg" class="img-galeria" alt="">
+                    <img src="galeria 6.jpg" class="img-galeria" alt="">
+                </div>
+            </div>
+            <div class="container">
+                <div class="section">
+                    <button class="btn" id="boton">Nuestros Vinos</button>
+                </div>
+                <div class="section" id="res"></div>
+            </div>
+            <br>
+            </br>
+        </section>
+       
+
+        <section class="imagen-light">
+            <img src="" alt=""  class="close">
+            <img src="LOGO.jpeg" alt="" class="agregar-imagen" >
+        </section>
+       </section>
+        <section class="form_wrap">
+            <section class="contact_info">
+                <section class="info_titulo">
+                    <h2>INFORMACION <br> DE CONTACTO </h2>
+                </section>
+                <section class="info_items">
+                    <p>Entrevinosvinos@gmail.com</p>
+                    <p>+54 9 11 8000 0000</p>
+                </section>
+            </section>
+        </section>
+      <form action="" class="form_contact">
+          <h2>Envia un mensaje, y a la brevedad te estaremos contactando</h2>
+          <div class="user_info">
+              <label for="name"> Nombre *</label>
+              <input type="text" id="name">
+
+              <label for="phone"> Telefono / Celular </label>
+              <input type="text" id="phone">
+
+              <label for="email"> Correo Electronico *</label>
+              <input type="text" id="email">
+
+              <label for="mensaje">Mensaje *</label>
+              <textarea id="mensaje"></textarea>
+
+              <input type="submit" value="Enviar" id="btnSend">
+          </div>
+      </form>
+
+    </main>
+    <footer id="footer">
+        <div class="contenedor footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">ENTRE VINOS</h2>
+                    <p>Compartiendo MOMENTOS</p>
+                </div>
+                <div class="social-media">
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-facebook'></i>
+                    </a>
+                    <a href="./" class="social-media-icon">
+                        <i class='bx bxl-instagram' ></i>
+                    </a>
+                </div>
+                
+        </div>
+    </footer>
+    <script src="menu.js"></script>
+    <script src="box.js"></script>}
+    <script src="script.js"></script>
+    <script src="localstorage.js"></script>
+    <script src="ajax.js"></script>
+
+</body>
+</html>
