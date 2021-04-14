@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "Nombre": "Yuros Malbec",
+        "Cepa": "Malbec",
+        "Bodega": "Las Mojarras",
+        "Precio": "518",
+        "img": "galeria 1.jpg"
+    },
+    { 
+        "id": 2,
+        "Cepa": "Cabernet Sauvignon",
+        "Nombre": "Cruz Alta",
+        "Bodega": "La Rural",
+        "Precio": "500",
+        "img": "galeria 2.jpg"
+    },
+    {
+        "id": 3,
+        "Cepa": "Cabernet Sauvignon ",
+        "Nombre": "Auka",
+        "Bodega": "San Polo",
+        "Precio": "280",
+        "img": "galeria 3.jpg"
+    },
+    {
+        "id": 4,
+        "Cepa": "Malbec",
+        "Nombre": "Aguerrido",
+        "Bodega": "Tamascal",
+        "Precio": "493",
+        "img": "galeria 4.jpg"
+    },
+    {
+        "id": 5,
+        "Cepa":"Blanco",
+        "Nombre": "Yuros",
+        "Bodega": "Las Mojarras",
+        "Precio": "330",
+        "img":"galeria 5.jpg"
+    }
+]
